@@ -1,0 +1,25 @@
+@use '../../sass/_variables' as *;
+
+.motivation{
+    height:90vh;
+    padding: 6rem 8%;
+    background-color: $motivationBg;
+
+    &__intro{
+        width: 700px;
+    }
+
+    h2{
+        font-size: 2.3rem;
+    }
+    p{
+        padding-top: 1rem;
+    }
+
+    &__cards{
+        display: flex;
+        gap: 2rem;
+        margin-top: 5rem;
+
+    }
+}
