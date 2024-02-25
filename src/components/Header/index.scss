@@ -1,0 +1,46 @@
+@use './../../sass/_variables' as *;
+
+.header{
+    width: 100%;
+    background-color: white;
+    padding: 1.5rem 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    li{
+        list-style: none;
+        position: relative;
+
+        &::after{
+            content: "  ";
+            position: absolute;
+            width: 0;
+            height: 7px;
+            bottom: -2rem;
+            left: 0px;
+            background: $buttonBg;
+            transition: 0.5s ease-in-out;
+        }
+
+        &:hover::after{
+            width: 100%;
+            background: $buttonBg;
+        }
+    }
+
+   
+
+    a{
+        text-decoration: none;
+        color: $fontColor;
+    }
+
+    
+}

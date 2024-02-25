@@ -1,0 +1,15 @@
+.app{
+
+  .content{
+    position: relative;
+    overflow: hidden;
+  }
+
+  #phones{
+    position: absolute;
+    top: -8rem;
+    right: -6rem;
+    z-index: 1;
+  }
+  
+}
