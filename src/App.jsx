@@ -2,7 +2,6 @@ import './App.scss'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 import phones from './assets/images/phones.png'
-import bgPhones from './assets/images/bg-intro-desktop.svg'
 import Motivation from './components/Motivation/Motivation'
 
 function App() {

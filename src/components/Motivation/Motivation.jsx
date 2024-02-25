@@ -2,6 +2,9 @@ import React from 'react'
 import './index.scss'
 import MotCard from '../Motivation_cards/MotCard'
 import online from '../../assets/images/icon-online.svg'
+import budgeting from '../../assets/images/icon-budgeting.svg'
+import onboarding from '../../assets/images/icon-onboarding.svg'
+import api from '../../assets/images/icon-api.svg'
 
 
 export default function Motivation() {
@@ -23,19 +26,19 @@ export default function Motivation() {
             wherever you are in the world.`}
             />
             <MotCard 
-            icon= {online}
+            icon= {budgeting}
             cardTittle={"Simple Budgeting"} 
             text={`See exactly where your money goes each month. Receive notifications when you’re 
             close to hitting your limits.`}
             />
             <MotCard 
-            icon= {online}
+            icon= {onboarding}
             cardTittle={"Fast Onboarding"} 
             text={`We don’t do branches. Open your account in minutes online and start taking control 
             of your finances right away.`}
             />
             <MotCard 
-            icon= {online}
+            icon= {api}
             cardTittle={"Open API"} 
             text={`Manage your savings, investments, pension, and much more from one account. Tracking 
             your money has never been easier.`}
