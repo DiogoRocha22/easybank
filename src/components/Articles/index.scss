@@ -1,0 +1,19 @@
+@use '../../sass/_variables' as *;
+
+
+.articles{
+    height: 100vh;
+    padding: 4rem 3%;
+    
+    
+    
+    h2{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    article{
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,32 @@
+.article__card{
+    width: 330px;
+    margin-top: 2rem;
+
+    img{
+        width: 330px;
+        height: 240px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    span{
+        font-size: 1rem;
+    }
+
+    h4{
+        margin: 1rem 0;
+        font-size: 1.3rem;
+    }
+
+    p{
+        font-size: 1.1rem;
+    }
+
+    &-info{
+        padding: 1.5rem 1.5rem;
+        background-color: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-top: -10px;
+    }
+}
