@@ -42,5 +42,14 @@
         color: $fontColor;
     }
 
-    
+    @media screen and (max-width:768px){
+        nav{
+            display: none;
+        }
+
+        button{
+            display: none;
+        }
+        padding: 1.5rem 1rem;
+    }
 }

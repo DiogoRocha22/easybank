@@ -1,0 +1,83 @@
+@use '../../sass/_variables' as *;
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32vh;
+    padding: 0 7%;
+    background-color: $footer ;
+
+    img{
+        color: white;
+        fill: white;
+        filter:brightness(20);
+    }
+
+    .socials{
+        display: flex;
+        gap: 10px;
+
+        & img{
+            cursor: pointer;
+        }
+    }
+
+    &__left{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        width: 150px;
+    }
+
+    &__nav{
+        display: flex;
+        gap: 8rem;
+        margin-right: 2rem;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            color: white;
+        }
+
+        li{
+            list-style: none;
+            cursor: pointer;
+
+            &:hover{
+                color: $hovered;
+            }
+        }
+    }
+
+    &__end{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: end;
+    }
+
+    @media screen and (max-width:768px){
+        flex-direction: column;
+        height: auto;
+        padding: 3rem 2rem;
+
+        &__left{
+            gap: 1rem;
+        }
+
+        &__nav{
+            width: 100%;
+            margin-right: 0;
+            margin-top: 2rem;
+            justify-content: space-around;
+        }
+
+        &__end{
+            align-items: center;
+            margin-top: 2rem;
+        }
+    }
+}

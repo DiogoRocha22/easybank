@@ -21,4 +21,24 @@
         gap: 2rem;
         margin-top: 5rem;
     }
+
+    @media screen and (max-width:768px){
+        padding: 3rem 1rem;
+        text-align: center;
+        height:auto;
+
+        h2{
+            font-size: 2rem;
+        }
+
+        &__intro{
+            width: 100%;
+        }
+
+        &__cards{
+            flex-direction: column;
+            align-items: center;
+            gap: 5rem;
+        }
+    }
 }

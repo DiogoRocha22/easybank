@@ -12,4 +12,16 @@
     z-index: 1;
   }
   
+
+  @media screen and (max-width:768px){
+   
+    #phones{
+      top: -6rem;
+      right: 0;
+      left: 0;
+      margin: auto;
+      width: 310px;
+    }
+    
+  }
 }

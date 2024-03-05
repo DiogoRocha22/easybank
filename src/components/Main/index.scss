@@ -30,5 +30,25 @@
         z-index: 0;
       }
 
-    
+      @media screen and (max-width:768px){
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 4rem 18px;
+
+        #phones-bg{
+            width: 680px;
+            right: -10rem;
+            top: -14rem;
+        }
+
+        &__info{
+            width: 100%;
+            text-align: center;
+            margin-top: 17rem;
+        }
+
+        h1{
+            font-size: 3rem;
+        }
+      }
 }

@@ -4,6 +4,7 @@ import Main from './components/Main/Main'
 import phones from './assets/images/phones.png'
 import Motivation from './components/Motivation/Motivation'
 import Articles from './components/Articles/Articles'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -17,19 +18,8 @@ function App() {
         <Motivation/>
         <Articles/>
 
+        <Footer/>
       </div>
-
-
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite
-
-  © Easybank. All Rights Reserved
     </div>
   )
 }

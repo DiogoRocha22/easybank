@@ -43,16 +43,6 @@ export default function Articles() {
             />
         </article>
 
-        
-  
- 
-
-  
-  
- 
-
-  
-  
     </div>
   )
 }
