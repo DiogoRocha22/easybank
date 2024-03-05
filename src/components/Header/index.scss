@@ -35,6 +35,10 @@
         }
     }
 
+    .burguer{
+        display: none;
+    }
+
    
 
     a{
@@ -43,13 +47,21 @@
     }
 
     @media screen and (max-width:768px){
+        position: relative;
+        
         nav{
-            display: none;
+           display: none;
         }
 
         button{
             display: none;
         }
+
+        .burguer{
+            display: block;
+            width: 30px;
+        }
+        
         padding: 1.5rem 1rem;
     }
 }

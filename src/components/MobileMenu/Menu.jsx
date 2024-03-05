@@ -1,14 +1,12 @@
 import React from 'react'
-import logo from '/logo.svg'
-import hamburguer from '../../assets/images/icon-hamburger.svg'
 import './index.scss'
+
+import logo from '/logo.svg'
 import ReqButton from '../requestButton/ReqButton'
 
-export default function Header({setDisplay}) {
+export default function Menu() {
   return (
-    <header className='header'>
-        <img src={logo} alt="" />
-
+    <div className='menu-burguer'>
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
@@ -17,13 +15,11 @@ export default function Header({setDisplay}) {
                 <li><a href="">Blog</a></li>
                 <li><a href="">Careers</a></li>
             </ul>
+
+            <ReqButton/>
+
+            <img src={logo} alt="" />
         </nav>
-
-        <img onClick={() => {
-          setDisplay(true)
-        }} className='burguer' src={hamburguer} alt="" />
-
-        <ReqButton/>
-    </header>
+    </div>
   )
 }
