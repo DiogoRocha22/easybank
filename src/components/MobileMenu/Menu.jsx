@@ -16,9 +16,6 @@ export default function Menu() {
                 <li><a href="">Careers</a></li>
             </ul>
 
-            <ReqButton/>
-
-            <img src={logo} alt="" />
         </nav>
     </div>
   )

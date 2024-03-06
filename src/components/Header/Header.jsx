@@ -1,10 +1,19 @@
 import React from 'react'
 import logo from '/logo.svg'
 import hamburguer from '../../assets/images/icon-hamburger.svg'
+import closeIcon from '../../assets/images/icon-close.svg'
+
 import './index.scss'
 import ReqButton from '../requestButton/ReqButton'
 
-export default function Header({setDisplay}) {
+export default function Header({setDisplay, display}) {
+  
+  let icone = hamburguer 
+
+  if(display == true){
+    icone = closeIcon
+  }
+  
   return (
     <header className='header'>
         <img src={logo} alt="" />
@@ -20,8 +29,8 @@ export default function Header({setDisplay}) {
         </nav>
 
         <img onClick={() => {
-          setDisplay(true)
-        }} className='burguer' src={hamburguer} alt="" />
+          setDisplay(!display)
+        }} className='burguer' src={icone} alt="" />
 
         <ReqButton/>
     </header>

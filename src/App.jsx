@@ -1,11 +1,13 @@
 import './App.scss'
 import Header from './components/Header/Header'
 import Main from './components/Main/Main'
-import phones from './assets/images/phones.png'
 import Motivation from './components/Motivation/Motivation'
 import Articles from './components/Articles/Articles'
 import Footer from './components/Footer/Footer'
 import Menu from './components/MobileMenu/Menu'
+
+import phones from './assets/images/phones.png'
+
 import { useState } from 'react'
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
 
   return (
     <div className='app'>
-      <Header setDisplay={setDisplay}/>
+      <Header display={display} setDisplay={setDisplay}/>
       {display && 
       <Menu/>}
       

@@ -2,12 +2,15 @@
 
 .menu-burguer{
     display: block;
+    position: absolute;
+    text-align: center;
+    top: 4rem;
+    left: 0;
     right: 0;
-    top: 0;
-    height: 100vh;
-    width: 70vw;
-    position: fixed;
+    margin: 0 auto;
+    width: 90vw;
     background-color: white;
+    border-radius: 10px;
     z-index: 999;
     border: 1px solid rgba(0, 0, 0, 0.445);
 
@@ -22,10 +25,9 @@
     }
 
     li{
-        border: 1px solid rgba(128, 128, 128, 0.377);
         width: 100%;
         list-style: none;
-        padding: 2rem 1rem;
+        padding: 1rem 0;
     }
 
     a{
