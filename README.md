@@ -1,5 +1,7 @@
 ## Overview
 
+O site simula uma landing page de um app de banco com um nav bar interativo, chamadas de ação e mais..
+
 ### The challenge
 
 Usuarios serao capazes de:
