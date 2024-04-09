@@ -10,8 +10,8 @@ Usuarios serao capazes de:
 - Ver elementos interativos na pagina
 
 ### Como rodar o projeto na sua maquina: <br>
-```git clone```
-```npm i```
+```git clone``` => 
+```npm i``` => 
 ```npm run dev```
 
 ### Links
