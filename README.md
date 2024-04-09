@@ -9,6 +9,11 @@ Usuarios serao capazes de:
 - Visualizar um layout responsivo e atrativo
 - Ver elementos interativos na pagina
 
+###Como rodar o projeto na sua maquina:
+```git clone```
+```npm i```
+```npm run dev```
+
 ### Links
 
 - Live Site URL: https://easybank-three-coral.vercel.app/
